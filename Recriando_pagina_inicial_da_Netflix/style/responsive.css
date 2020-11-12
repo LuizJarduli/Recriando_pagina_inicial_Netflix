@@ -1,0 +1,97 @@
+@media screen and (max-width: 680px) {
+    body {
+        width: 100vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    header .container .menu .nav-menu {
+        display: none;
+    }
+    header .container .menu .dropdown {
+        display: inline-block;
+    }
+    .filme-principal {
+        height: 80%;
+    }
+    .titulo img {
+        width: 45%;
+    }
+    .filme-principal .descricao {
+        width: 43%;
+        margin-bottom: 10px;
+    }
+    .botoes {
+        display: flex;
+        justify-content: start;
+        margin-bottom: 30px;
+    }
+    .botoes .botao {
+        width: 20%;
+        font-size: 9px;
+        padding: 0.7rem;
+        padding-left: 1rem;
+        padding-right: 1.1rem;
+        margin-top: 0;
+    }
+    .carrosel-filmes h3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .filme-principal {
+        height: 80%;
+    }
+    .titulo img {
+        width: 60%;
+    }
+    .filme-principal .descricao {
+        width: 60%;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .botoes {
+        display: flex;
+        justify-content: start;
+        margin-bottom: 30px;
+    }
+    .botoes .botao {
+        width: 28%;
+        font-size: 9px;
+        padding: 0.7rem;
+        padding-left: 1rem;
+        padding-right: 1.1rem;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 369px) {
+    .icons {
+        font-size: 12px;
+    }
+    .filme-principal {
+        height: 80%;
+    }
+    .titulo img {
+        width: 60%;
+    }
+    .filme-principal .descricao {
+        width: 80%;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .botoes {
+        display: flex;
+        justify-content: start;
+        margin-bottom: 30px;
+    }
+    .botoes .botao {
+        width: 28%;
+        font-size: 9px;
+        padding: 0.7rem;
+        padding-left: 1rem;
+        padding-right: 1.1rem;
+        margin-top: 0;
+    }
+}
